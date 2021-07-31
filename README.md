@@ -1,5 +1,7 @@
 # Example Github Actions Superlinter
 
+[![GitHub Super-Linter](https://github.com/crhuffer/example_github_actions_superlinter/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
+
 ## Design Decisions
 
 ### Focus on server side hooks but provide client side hooks
