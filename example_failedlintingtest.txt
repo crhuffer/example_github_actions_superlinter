@@ -1,0 +1,171 @@
+Run github/super-linter@v4
+/usr/bin/docker run --name ghcriogithubsuperlinterv450_7a8286 --label 3bec5f --workdir /github/workspace --rm -e VALIDATE_ALL_CODEBASE -e DEFAULT_BRANCH -e GITHUB_TOKEN -e HOME -e GITHUB_JOB -e GITHUB_REF -e GITHUB_SHA -e GITHUB_REPOSITORY -e GITHUB_REPOSITORY_OWNER -e GITHUB_RUN_ID -e GITHUB_RUN_NUMBER -e GITHUB_RETENTION_DAYS -e GITHUB_ACTOR -e GITHUB_WORKFLOW -e GITHUB_HEAD_REF -e GITHUB_BASE_REF -e GITHUB_EVENT_NAME -e GITHUB_SERVER_URL -e GITHUB_API_URL -e GITHUB_GRAPHQL_URL -e GITHUB_WORKSPACE -e GITHUB_ACTION -e GITHUB_EVENT_PATH -e GITHUB_ACTION_REPOSITORY -e GITHUB_ACTION_REF -e GITHUB_PATH -e GITHUB_ENV -e RUNNER_OS -e RUNNER_TOOL_CACHE -e RUNNER_TEMP -e RUNNER_WORKSPACE -e ACTIONS_RUNTIME_URL -e ACTIONS_RUNTIME_TOKEN -e ACTIONS_CACHE_URL -e GITHUB_ACTIONS=true -e CI=true -v "/var/run/docker.sock":"/var/run/docker.sock" -v "/home/runner/work/_temp/_github_home":"/github/home" -v "/home/runner/work/_temp/_github_workflow":"/github/workflow" -v "/home/runner/work/_temp/_runner_file_commands":"/github/file_commands" -v "/home/runner/work/example_github_actions_superlinter/example_github_actions_superlinter":"/github/workspace" ghcr.io/github/super-linter:v4.5.0
+2021-07-31 17:20:39 [INFO]   ---------------------------------------------
+--------------------------------------------------------------------------------
+
+                              /@@#///////@@/(@//@%/(@.@(       @@
+                          @@//////////////////////////////#*  @@@
+                        @////@//(///////////@@@@@///@//@/@**//@@(
+                      @///////@///////////////@@@@    (           @,
+                     @/(&/@////////////////////                     @
+                    @////////////////////////@@                      @
+                  @%////////(//////////%/////&@            @@       *,@           ______________
+             @@@@@/@/#/////(&//////////////////                       .@         /              \
+        *@@@@@.    .%///(//@//////////////////&.   .@@,                 @%      / Don't mind me  \
+      @@%           .&@&&/@.@//&/////(//////////    @@@@@@@@@         .. &@    / I'm just looking \
+    @@%               @@@@@   @&/////////////////#   @/       V  @@/ ,@@@ @   <  for some trash... |
+@@@%                   @@@@        .%@@@@//////#@ @   @@         @     .,.     \__________________/
+                                          @@@/@(  (@@@@% @/\      %
+                                           @@@@(    .     .@@/\   #
+                                             @                  %@%
+
+--------------------------------------------------------------------------------
+2021-07-31 17:20:39 [INFO]   --- GitHub Actions Multi Language Linter ----
+2021-07-31 17:20:39 [INFO]    - Image Creation Date:[2021-07-14T19:45:17Z]
+2021-07-31 17:20:39 [INFO]    - Image Revision:[14817930725cc9c594cbf91d087f410ab48e074a]
+2021-07-31 17:20:39 [INFO]    - Image Version:[14817930725cc9c594cbf91d087f410ab48e074a]
+2021-07-31 17:20:39 [INFO]   ---------------------------------------------
+2021-07-31 17:20:39 [INFO]   ---------------------------------------------
+2021-07-31 17:20:39 [INFO]   The Super-Linter source code can be found at:
+2021-07-31 17:20:39 [INFO]    - https://github.com/github/super-linter
+2021-07-31 17:20:39 [INFO]   ---------------------------------------------
+2021-07-31 17:20:39 [INFO]   --------------------------------------------
+2021-07-31 17:20:39 [INFO]   Gathering GitHub information...
+2021-07-31 17:20:39 [INFO]   Successfully found:[GITHUB_SHA], value:[a8b9258f519a1300316979454a09648491461b26]
+2021-07-31 17:20:39 [INFO]   Successfully found:[GITHUB_WORKSPACE], value:[/github/workspace]
+2021-07-31 17:20:39 [INFO]   Successfully found:[GITHUB_EVENT_PATH], value:[/github/workflow/event.json]
+2021-07-31 17:20:39 [INFO]   Successfully found:[GITHUB_ORG], value:[crhuffer]
+2021-07-31 17:20:39 [INFO]   Successfully found:[GITHUB_REPO], value:[example_github_actions_superlinter]
+2021-07-31 17:20:39 [INFO]   Successfully found:[GITHUB_TOKEN]
+2021-07-31 17:20:39 [INFO]   Successfully found:[GITHUB_REPOSITORY], value:[crhuffer/example_github_actions_superlinter]
+2021-07-31 17:20:39 [INFO]   Successfully found:[GITHUB_RUN_ID], value:[1085527283]
+2021-07-31 17:20:39 [INFO]   --------------------------------------------
+2021-07-31 17:20:39 [INFO]   Gathering user validation information...
+2021-07-31 17:20:39 [INFO]   - Validating ALL files in code base...
+2021-07-31 17:20:43 [INFO]   ---------------------------------
+2021-07-31 17:20:43 [INFO]   ------ File list to check: ------
+2021-07-31 17:20:43 [INFO]   ---------------------------------
+2021-07-31 17:20:43 [INFO]   ----------------------------------------------
+2021-07-31 17:20:43 [INFO]   Successfully gathered list of files...
+2021-07-31 17:20:44 [INFO]   
+2021-07-31 17:20:44 [INFO]   ----------------------------------------------
+2021-07-31 17:20:44 [INFO]   ----------------------------------------------
+2021-07-31 17:20:44 [INFO]   Linting [JSCPD] files...
+2021-07-31 17:20:44 [INFO]   ----------------------------------------------
+2021-07-31 17:20:44 [INFO]   ----------------------------------------------
+2021-07-31 17:20:44 [INFO]   ---------------------------
+2021-07-31 17:20:44 [INFO]   File:[/github/workspace/.github/workflows/main.yml]
+2021-07-31 17:20:45 [INFO]    - File:[main.yml] was linted with [jscpd] successfully
+2021-07-31 17:20:45 [INFO]   ---------------------------
+2021-07-31 17:20:45 [INFO]   File:[/github/workspace/LICENSE]
+2021-07-31 17:20:45 [INFO]    - File:[LICENSE] was linted with [jscpd] successfully
+2021-07-31 17:20:45 [INFO]   ---------------------------
+2021-07-31 17:20:45 [INFO]   File:[/github/workspace/README.md]
+2021-07-31 17:20:46 [INFO]    - File:[README.md] was linted with [jscpd] successfully
+2021-07-31 17:20:46 [INFO]   ---------------------------
+2021-07-31 17:20:46 [INFO]   File:[/github/workspace/testpythonfile.py]
+2021-07-31 17:20:46 [INFO]    - File:[testpythonfile.py] was linted with [jscpd] successfully
+2021-07-31 17:20:46 [INFO]   
+2021-07-31 17:20:46 [INFO]   ----------------------------------------------
+2021-07-31 17:20:46 [INFO]   ----------------------------------------------
+2021-07-31 17:20:46 [INFO]   Linting [MARKDOWN] files...
+2021-07-31 17:20:46 [INFO]   ----------------------------------------------
+2021-07-31 17:20:46 [INFO]   ----------------------------------------------
+2021-07-31 17:20:47 [INFO]   ---------------------------
+2021-07-31 17:20:47 [INFO]   File:[/github/workspace/README.md]
+2021-07-31 17:20:47 [ERROR]   Found errors in [markdownlint] linter!
+2021-07-31 17:20:47 [ERROR]   Error code: 1. Command output:
+------
+/github/workspace/README.md:5 MD001/heading-increment/header-increment Heading levels should only increment by one level at a time [Expected: h3; Actual: h4]
+/github/workspace/README.md:5:62 MD026/no-trailing-punctuation Trailing punctuation in heading [Punctuation: '.']
+/github/workspace/README.md:6:401 MD013/line-length Line length [Expected: 400; Actual: 409]
+/github/workspace/README.md:10:3 MD034/no-bare-urls Bare URL used [Context: "https://medium.com/@f3igao/get..."]
+/github/workspace/README.md:11:3 MD034/no-bare-urls Bare URL used [Context: "https://github.com/github/supe..."]
+/github/workspace/README.md:12:3 MD034/no-bare-urls Bare URL used [Context: "https://pre-commit.com/hooks.h..."]
+/github/workspace/README.md:13:3 MD034/no-bare-urls Bare URL used [Context: "https://stackoverflow.com/ques..."]
+/github/workspace/README.md:14:3 MD034/no-bare-urls Bare URL used [Context: "https://stackoverflow.com/ques..."]
+/github/workspace/README.md:15:3 MD034/no-bare-urls Bare URL used [Context: "https://github.blog/2020-06-18..."]
+/github/workspace/README.md:16:3 MD034/no-bare-urls Bare URL used [Context: "https://towardsdatascience.com..."]
+------
+2021-07-31 17:20:47 [INFO]   
+2021-07-31 17:20:47 [INFO]   ----------------------------------------------
+2021-07-31 17:20:47 [INFO]   ----------------------------------------------
+2021-07-31 17:20:47 [INFO]   Linting [PYTHON_BLACK] files...
+2021-07-31 17:20:47 [INFO]   ----------------------------------------------
+2021-07-31 17:20:47 [INFO]   ----------------------------------------------
+2021-07-31 17:20:47 [INFO]   ---------------------------
+2021-07-31 17:20:47 [INFO]   File:[/github/workspace/testpythonfile.py]
+2021-07-31 17:20:47 [ERROR]   Found errors in [black] linter!
+2021-07-31 17:20:47 [ERROR]   Error code: 1. Command output:
+------
+would reformat /github/workspace/testpythonfile.py
+Oh no! 💥 💔 💥
+1 file would be reformatted.
+--- /github/workspace/testpythonfile.py	2021-07-31 17:20:38.425242 +0000
++++ /github/workspace/testpythonfile.py	2021-07-31 17:20:47.801125 +0000
+@@ -1,4 +1,4 @@
+ import matplotlib
+ 
+-print('')
+-print('')
++print("")
++print("")
+------
+2021-07-31 17:20:47 [INFO]   
+2021-07-31 17:20:47 [INFO]   ----------------------------------------------
+2021-07-31 17:20:47 [INFO]   ----------------------------------------------
+2021-07-31 17:20:47 [INFO]   Linting [PYTHON_PYLINT] files...
+2021-07-31 17:20:47 [INFO]   ----------------------------------------------
+2021-07-31 17:20:47 [INFO]   ----------------------------------------------
+2021-07-31 17:20:47 [INFO]   ---------------------------
+2021-07-31 17:20:47 [INFO]   File:[/github/workspace/testpythonfile.py]
+2021-07-31 17:20:48 [INFO]    - File:[testpythonfile.py] was linted with [pylint] successfully
+2021-07-31 17:20:48 [INFO]   
+2021-07-31 17:20:48 [INFO]   ----------------------------------------------
+2021-07-31 17:20:48 [INFO]   ----------------------------------------------
+2021-07-31 17:20:48 [INFO]   Linting [PYTHON_FLAKE8] files...
+2021-07-31 17:20:48 [INFO]   ----------------------------------------------
+2021-07-31 17:20:48 [INFO]   ----------------------------------------------
+2021-07-31 17:20:48 [INFO]   ---------------------------
+2021-07-31 17:20:48 [INFO]   File:[/github/workspace/testpythonfile.py]
+2021-07-31 17:20:48 [ERROR]   Found errors in [flake8] linter!
+2021-07-31 17:20:48 [ERROR]   Error code: 1. Command output:
+------
+/github/workspace/testpythonfile.py:1:1: F401 'matplotlib' imported but unused
+------
+2021-07-31 17:20:49 [INFO]   
+2021-07-31 17:20:49 [INFO]   ----------------------------------------------
+2021-07-31 17:20:49 [INFO]   ----------------------------------------------
+2021-07-31 17:20:49 [INFO]   Linting [PYTHON_ISORT] files...
+2021-07-31 17:20:49 [INFO]   ----------------------------------------------
+2021-07-31 17:20:49 [INFO]   ----------------------------------------------
+2021-07-31 17:20:49 [INFO]   ---------------------------
+2021-07-31 17:20:49 [INFO]   File:[/github/workspace/testpythonfile.py]
+2021-07-31 17:20:49 [INFO]    - File:[testpythonfile.py] was linted with [isort] successfully
+2021-07-31 17:20:49 [INFO]   
+2021-07-31 17:20:49 [INFO]   ----------------------------------------------
+2021-07-31 17:20:49 [INFO]   ----------------------------------------------
+2021-07-31 17:20:49 [INFO]   Linting [PYTHON_MYPY] files...
+2021-07-31 17:20:49 [INFO]   ----------------------------------------------
+2021-07-31 17:20:49 [INFO]   ----------------------------------------------
+2021-07-31 17:20:49 [INFO]   ---------------------------
+2021-07-31 17:20:49 [INFO]   File:[/github/workspace/testpythonfile.py]
+2021-07-31 17:20:55 [INFO]    - File:[testpythonfile.py] was linted with [mypy] successfully
+2021-07-31 17:20:56 [INFO]   
+2021-07-31 17:20:56 [INFO]   ----------------------------------------------
+2021-07-31 17:20:56 [INFO]   ----------------------------------------------
+2021-07-31 17:20:56 [INFO]   Linting [YAML] files...
+2021-07-31 17:20:56 [INFO]   ----------------------------------------------
+2021-07-31 17:20:56 [INFO]   ----------------------------------------------
+2021-07-31 17:20:56 [INFO]   ---------------------------
+2021-07-31 17:20:56 [INFO]   File:[/github/workspace/.github/workflows/main.yml]
+2021-07-31 17:20:56 [INFO]    - File:[main.yml] was linted with [yamllint] successfully
+2021-07-31 17:20:56 [INFO]   ----------------------------------------------
+2021-07-31 17:20:56 [INFO]   ----------------------------------------------
+2021-07-31 17:20:56 [INFO]   The script has completed
+2021-07-31 17:20:56 [INFO]   ----------------------------------------------
+2021-07-31 17:20:56 [INFO]   ----------------------------------------------
+2021-07-31 17:20:56 [ERROR]   ERRORS FOUND in MARKDOWN:[1]
+2021-07-31 17:20:56 [ERROR]   ERRORS FOUND in PYTHON_BLACK:[1]
+2021-07-31 17:20:57 [ERROR]   ERRORS FOUND in PYTHON_FLAKE8:[1]
+2021-07-31 17:20:59 [FATAL]   Exiting with errors found!
